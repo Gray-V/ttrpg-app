@@ -1,3 +1,4 @@
+import { TextField } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles(
@@ -11,5 +12,10 @@ const useStyles = makeStyles(
 
 export const Homepage = () => {
   const classes = useStyles()
-  return <div className={classes.root}>HOMEPAGE</div>
+  return (
+    <div className={classes.root}>
+      HOMEPAGE
+      <TextField label="Standard" />
+    </div>
+  )
 }
