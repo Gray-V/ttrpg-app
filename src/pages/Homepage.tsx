@@ -14,7 +14,7 @@ export const Homepage = () => {
   const classes = useStyles()
   return (
     <div className={classes.root}>
-      HOMEPAGE testing
+      HOMEPAGE
       <TextField label="Standard" />
     </div>
   )
